@@ -1,0 +1,1 @@
+A 401 Unauthorized response indicates that the user has no valid credentials to access a restricted API endpoint. When the user is successfully authenticated, the system returns a 200 OK response along with their profile information. Logging out invalidates the access token, so the user can no longer access protected endpoints until they log in again.
